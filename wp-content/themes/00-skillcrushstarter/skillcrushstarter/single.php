@@ -9,14 +9,17 @@
 
 get_header(); ?>
 
-<section class="single-page">		
+<section class="single-page">
 	<div class="main-content">
+
+		<?php wp_nav_menu(array('theme_location' => 'category-menu')); ?>
+
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part('content', get_post_format()); ?>
 			<?php comments_template(); ?>
 		<?php endwhile; ?>
 	</div>
-	
+
 	<?php get_sidebar(); ?>
 
 	<div id="navigation" class="container">
