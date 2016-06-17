@@ -77,4 +77,4 @@ function custom_excerpt_more($more) {
 add_filter('excerpt_more', 'custom_excerpt_more');
 
 // Register a Category Menu
-register_nav_menu('category-menu', 'Category Menu');
+//register_nav_menu('category-menu', 'Category Menu');

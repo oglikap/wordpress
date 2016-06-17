@@ -18,6 +18,8 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<link href='http://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700,400' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,100' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
 	<?php wp_head(); ?>
 </head>
@@ -27,7 +29,7 @@
 		<header class="page-header container">
 			<a href="<?php echo site_url(); ?>" class="top-logo">
 				<span class="title"><?php bloginfo('name'); ?></span>
-				<span class="sub-title"><?php bloginfo('description'); ?></span>
+				<span class="sub-title"><?php// bloginfo('description'); ?>Things <small>by</small> Rutger Kroon</span>
 			</a>
 
 			<nav class="top-nav">
